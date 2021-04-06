@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Index &#8212; Jupyter Notebooks</title>
+    <title>Alternativas a Jupyter Notebooks &#8212; Jupyter Notebooks</title>
     
   <link rel="stylesheet" href="_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
 
@@ -52,8 +52,9 @@
         const thebe_selector_output = ".output"
     </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
-    <link rel="index" title="Index" href="#" />
+    <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="¿Dónde empezar?" href="markdown2.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
@@ -90,7 +91,7 @@
   </a>
  </li>
 </ul>
-<ul class="nav sidenav_l1">
+<ul class="current nav sidenav_l1">
  <li class="toctree-l1 collapsible-parent">
   <a class="reference internal" href="content.html">
    Funcionalidades
@@ -120,8 +121,8 @@
    ¿Dónde empezar?
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="markdown3.html">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Alternativas a Jupyter Notebooks
   </a>
  </li>
@@ -157,6 +158,23 @@
         </button>
         
         
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/markdown3.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
         <!-- Source interaction buttons -->
 
 <div class="dropdown-buttons-trigger">
@@ -168,7 +186,7 @@
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/Rafaelab1227/demobook1//issues/new?title=Issue%20on%20page%20%2Fgenindex.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/Rafaelab1227/demobook1//issues/new?title=Issue%20on%20page%20%2Fmarkdown3.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
         
@@ -196,13 +214,34 @@
         
               <div>
                 
-
-<h1 id="index">Index</h1>
-
-<div class="genindex-jumpbox">
- 
+  <div class="section" id="alternativas-a-jupyter-notebooks">
+<h1>Alternativas a Jupyter Notebooks<a class="headerlink" href="#alternativas-a-jupyter-notebooks" title="Permalink to this headline">¶</a></h1>
+<p><strong>PyCharm</strong>: presenta una interfaz con autocomplentación de código lo que facilita la programación, además soporta la integración múltiple de bases de datos. Por otro lado, se presenta como una opción poco flexible y demorada.
+<strong>Apache Zeppelin</strong>: actualmente compite con Jupyter Notebooks al poseer algunas ventajas. Por ejemplo, permite la edición mediante múltiples usuarios al mismo tiempo y mayores herramientas de visualización, sin embargo, tiene un enfoque marcado de uso para análisis de datos.
+<strong>RStudio</strong>: posiblemente, el más cercano a Jupyter Notebook si se compara funcionalidad. Posee una consola editable, permite el trabajo directo en la nube y contiene herramientas como RMarkdown que permiten creae presentaciones y documentos fácilmente.
+<strong>Rodeo IDE</strong>: únicamente soporta Python, sin embargo, posee funciones de autocompletación que ayudan en la tarea de programación.
+<strong>Spark Notebook</strong>: utiliza Scala como lenguaje primario, también soporta SQL y JavaScript. Su comunidad de uso es relayivamente pequeña por lo que no es fácil encontrar ejemplos y soporte.</p>
 </div>
 
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
 
               </div>
               
@@ -212,6 +251,7 @@
     
     <div class='prev-next-bottom'>
         
+    <a class='left-prev' id="prev-link" href="markdown2.html" title="previous page">¿Dónde empezar?</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">
