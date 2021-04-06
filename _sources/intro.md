@@ -1,7 +1,10 @@
-Welcome to your Jupyter Book
+Jupyter Notebooks for teaching
 ============================
 
-This is a small sample book to give you a feel for how book content is
-structured.
+## ¿Qué es un Jupyter Notebook?
 
-Check out the content pages bundled with this sample book to get started.
+"Un Notebook que extiende el enfoque basado en consola para la computación interactiva en una dirección cualitativamente nueva, proporcionando una aplicación basada en la web adecuada para capturar todo el proceso de computación"
+
+Este proceso de computación se basa en desarrollar, documentar, ejecutar y comunicar resultados. Su nombre proviene de la conjugación de los lenguajes de programación Julia, Python, y R, sin embargo actualmente permite la codificación de 40 lenguajes.
+
+
