@@ -19,7 +19,7 @@ nbclient.exceptions.CellExecutionError: An error occurred while executing the fo
 ------------------
 ### 4) Create a list of Python data types
 
-WRITE YOUR ANSWER BELOW IN ONLY ONE CELL
+# YOUR ANSWER BELOW IN ONLY ONE CELL
 
 === BEGIN MARK SCHEME ===
 
@@ -36,10 +36,10 @@ Set data types: set, frozenset
 === END MARK SCHEME ===
 ------------------
 
-[0;36m  File [0;32m"<ipython-input-4-964c401a57f2>"[0;36m, line [0;32m3[0m
-[0;31m    WRITE YOUR ANSWER BELOW IN ONLY ONE CELL[0m
-[0m          ^[0m
+[0;36m  File [0;32m"<ipython-input-4-1e2936b295b7>"[0;36m, line [0;32m5[0m
+[0;31m    === BEGIN MARK SCHEME ===[0m
+[0m    ^[0m
 [0;31mSyntaxError[0m[0;31m:[0m invalid syntax
 
-SyntaxError: invalid syntax (<ipython-input-4-964c401a57f2>, line 3)
+SyntaxError: invalid syntax (<ipython-input-4-1e2936b295b7>, line 5)
 
