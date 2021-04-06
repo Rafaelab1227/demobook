@@ -6,3 +6,6 @@
   sections:
     - file: markdown
     - file: notebooks
+    - file: notebooks2
+- file: markdown2
+- file: markdown3

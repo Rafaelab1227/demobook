@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Content in Jupyter Book &#8212; My sample book</title>
+    <title>Funcionalidades &#8212; Jupyter Notebooks</title>
     
   <link rel="stylesheet" href="_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
 
@@ -45,8 +45,6 @@
     <script src="_static/copybutton.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
-    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe"
@@ -56,8 +54,8 @@
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Markdown Files" href="markdown.html" />
-    <link rel="prev" title="Welcome to your Jupyter Book" href="intro.html" />
+    <link rel="next" title="Uso" href="markdown.html" />
+    <link rel="prev" title="Jupyter Notebooks for teaching" href="intro.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
@@ -79,7 +77,7 @@
   <img src="_static/logo.png" class="logo" alt="logo">
   
   
-  <h1 class="site-logo" id="site-title">My sample book</h1>
+  <h1 class="site-logo" id="site-title">Jupyter Notebooks</h1>
   
 </a>
 </div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
@@ -90,29 +88,44 @@
     <ul class="nav sidenav_l1">
  <li class="toctree-l1">
   <a class="reference internal" href="intro.html">
-   Welcome to your Jupyter Book
+   Jupyter Notebooks for teaching
   </a>
  </li>
 </ul>
 <ul class="current nav sidenav_l1">
  <li class="toctree-l1 current active collapsible-parent">
   <a class="current reference internal" href="#">
-   Content in Jupyter Book
+   Funcionalidades
   </a>
   <ul class="collapse-ul">
    <li class="toctree-l2">
     <a class="reference internal" href="markdown.html">
-     Markdown Files
+     Uso
     </a>
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="notebooks.html">
-     Content with notebooks
+     Wiki de ejemplos
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="notebooks2.html">
+     Add-on Nbgrader
     </a>
    </li>
   </ul>
   <i class="fas fa-chevron-down">
   </i>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="markdown2.html">
+   ¿Dónde empezar?
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="markdown3.html">
+   Alternativas a Jupyter Notebooks
+  </a>
  </li>
 </ul>
 
@@ -170,11 +183,11 @@
         aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
     <div class="dropdown-buttons sourcebuttons">
         <a class="repository-button"
-            href="https://github.com/executablebooks/jupyter-book"><button type="button" class="btn btn-secondary topbarbtn"
+            href="https://github.com/Rafaelab1227/demobook1/"><button type="button" class="btn btn-secondary topbarbtn"
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fcontent.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/Rafaelab1227/demobook1//issues/new?title=Issue%20on%20page%20%2Fcontent.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
         
@@ -195,6 +208,20 @@
     <!-- Table of contents -->
     <div class="d-none d-md-block col-md-2 bd-toc show">
         
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i> Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#beneficios">
+   Beneficios
+  </a>
+ </li>
+</ul>
+
+        </nav>
+        
     </div>
 </div>
     <div id="main-content" class="row">
@@ -202,11 +229,121 @@
         
               <div>
                 
-  <div class="section" id="content-in-jupyter-book">
-<h1>Content in Jupyter Book<a class="headerlink" href="#content-in-jupyter-book" title="Permalink to this headline">¶</a></h1>
-<p>There are many ways to write content in Jupyter Book. This short section
-covers a few tips for how to do so.</p>
+  <div class="section" id="funcionalidades">
+<h1>Funcionalidades<a class="headerlink" href="#funcionalidades" title="Permalink to this headline">¶</a></h1>
+<p>Esta herramiente permiten al usuario conjugar datos, código y prosa para poder contar una historia computacional interactiva, sumando la interactividad de una aplicación a las explicaciones.</p>
+<div class="section" id="beneficios">
+<h2>Beneficios<a class="headerlink" href="#beneficios" title="Permalink to this headline">¶</a></h2>
+<p>Jupyter Notebooks promueve un amplio rango de metas de aprendizaje entre ellas el aprende a programar, incrementar el dominio del conocimiento, y practicar skills de comunicación como el “story telling”. Específicamente se pueden encontrar varios beneficios asociados a cada tipo de usuario que han sido corroborados por <a class="reference external" href="https://jupyter4edu.github.io/jupyter-edu-book/why-we-use-jupyter-notebooks.html#course-benefits-anecdotes">Teaching and Learning with Jupyter</a></p>
+<style>
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+<div class="row">
+  <div class="column"><style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-snc9{background-color:#3d8eb9;color:#ffffff;text-align:center;vertical-align:bottom}
+.tg .tg-8d8j{text-align:center;vertical-align:bottom}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-snc9">Beneficios del curso</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-8d8j">Compromiso</td>
+  </tr>
+  <tr>
+    <td class="tg-8d8j">Participación</td>
+  </tr>
+  <tr>
+    <td class="tg-8d8j">Mayor comprensión</td>
+  </tr>
+  <tr>
+    <td class="tg-8d8j">Incrementar el desempeño de los estudiantes</td>
+  </tr>
+</tbody>
+</table></div>
+  <div class="column"><style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-h1zv{background-color:#3d8eb9;color:#ffffff;text-align:left;vertical-align:bottom}
+.tg .tg-8d8j{text-align:center;vertical-align:bottom}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-h1zv">Beneficios para estudiantes</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-8d8j">Desarolla el pensamiento computacional</td>
+  </tr>
+  <tr>
+    <td class="tg-8d8j">Open Source</td>
+  </tr>
+  <tr>
+    <td class="tg-8d8j">Promueve el aprendizaje activo</td>
+  </tr>
+</tbody>
+</table></div>
+  <div class="column"><style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-snc9{background-color:#3d8eb9;color:#ffffff;text-align:center;vertical-align:bottom}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-8d8j{text-align:center;vertical-align:bottom}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-snc9">Beneficios para instructor</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-8d8j">Flexibilidad</td>
+  </tr>
+  <tr>
+    <td class="tg-8d8j">Notas de clase publicables e interactivas</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">Reutilización y adaptación de los recursos existentes</td>
+  </tr>
+  <tr>
+    <td class="tg-8d8j">Uso varios lenguajes</td>
+  </tr>
+  <tr>
+    <td class="tg-8d8j">Infraestructura en la nube</td>
+  </tr>
+</tbody>
+</table>
+</div>
+</div>
 <div class="toctree-wrapper compound">
+</div>
 </div>
 </div>
 
@@ -238,15 +375,15 @@ covers a few tips for how to do so.</p>
     
     <div class='prev-next-bottom'>
         
-    <a class='left-prev' id="prev-link" href="intro.html" title="previous page">Welcome to your Jupyter Book</a>
-    <a class='right-next' id="next-link" href="markdown.html" title="next page">Markdown Files</a>
+    <a class='left-prev' id="prev-link" href="intro.html" title="previous page">Jupyter Notebooks for teaching</a>
+    <a class='right-next' id="next-link" href="markdown.html" title="next page">Uso</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">
     <div class="container">
       <p>
         
-          By The Jupyter Book Community<br/>
+          By Uc3m Jupyter<br/>
         
             &copy; Copyright 2020.<br/>
       </p>

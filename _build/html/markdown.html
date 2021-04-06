@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Markdown Files &#8212; My sample book</title>
+    <title>Uso &#8212; Jupyter Notebooks</title>
     
   <link rel="stylesheet" href="_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
 
@@ -45,8 +45,6 @@
     <script src="_static/copybutton.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
-    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe"
@@ -56,8 +54,8 @@
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Content with notebooks" href="notebooks.html" />
-    <link rel="prev" title="Content in Jupyter Book" href="content.html" />
+    <link rel="next" title="Wiki de ejemplos" href="notebooks.html" />
+    <link rel="prev" title="Funcionalidades" href="content.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
@@ -79,7 +77,7 @@
   <img src="_static/logo.png" class="logo" alt="logo">
   
   
-  <h1 class="site-logo" id="site-title">My sample book</h1>
+  <h1 class="site-logo" id="site-title">Jupyter Notebooks</h1>
   
 </a>
 </div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
@@ -90,29 +88,44 @@
     <ul class="nav sidenav_l1">
  <li class="toctree-l1">
   <a class="reference internal" href="intro.html">
-   Welcome to your Jupyter Book
+   Jupyter Notebooks for teaching
   </a>
  </li>
 </ul>
 <ul class="current nav sidenav_l1">
  <li class="toctree-l1 current active collapsible-parent">
   <a class="reference internal" href="content.html">
-   Content in Jupyter Book
+   Funcionalidades
   </a>
   <ul class="current collapse-ul">
    <li class="toctree-l2 current active">
     <a class="current reference internal" href="#">
-     Markdown Files
+     Uso
     </a>
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="notebooks.html">
-     Content with notebooks
+     Wiki de ejemplos
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="notebooks2.html">
+     Add-on Nbgrader
     </a>
    </li>
   </ul>
   <i class="fas fa-chevron-down">
   </i>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="markdown2.html">
+   ¿Dónde empezar?
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="markdown3.html">
+   Alternativas a Jupyter Notebooks
+  </a>
  </li>
 </ul>
 
@@ -170,11 +183,11 @@
         aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
     <div class="dropdown-buttons sourcebuttons">
         <a class="repository-button"
-            href="https://github.com/executablebooks/jupyter-book"><button type="button" class="btn btn-secondary topbarbtn"
+            href="https://github.com/Rafaelab1227/demobook1/"><button type="button" class="btn btn-secondary topbarbtn"
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fmarkdown.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/Rafaelab1227/demobook1//issues/new?title=Issue%20on%20page%20%2Fmarkdown.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
         
@@ -201,36 +214,44 @@
         <nav id="bd-toc-nav">
             <ul class="nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#what-is-myst">
-   What is MyST?
+  <a class="reference internal nav-link" href="#libros-de-texto-estaticos">
+   1. Libros de texto estáticos
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#what-are-roles-and-directives">
-   What are roles and directives?
+  <a class="reference internal nav-link" href="#libros-de-trabajo">
+   2. Libros de trabajo
   </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#using-a-directive">
-     Using a directive
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#using-a-role">
-     Using a role
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#adding-a-citation">
-     Adding a citation
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#executing-code-in-your-markdown-files">
-     Executing code in your markdown files
-    </a>
-   </li>
-  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#hojas-de-trabajo-o-set-de-ejercicios">
+   3. Hojas de trabajo o set de ejercicios
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#paquete-de-cursos-u-hojas-de-notas">
+   4. Paquete de cursos u hojas de notas
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#aplicaciones-y-plataformas-multimedia-interactivas">
+   5. Aplicaciones y plataformas multimedia interactivas
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#reportes-de-laboratorio-y-tareas">
+   6. Reportes de laboratorio y tareas
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#plataforma-demostrativa">
+   7. Plataforma demostrativa
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#programacion-en-vivo">
+   8. Programación en vivo
+  </a>
  </li>
 </ul>
 
@@ -243,112 +264,39 @@
         
               <div>
                 
-  <div class="section" id="markdown-files">
-<h1>Markdown Files<a class="headerlink" href="#markdown-files" title="Permalink to this headline">¶</a></h1>
-<p>Whether you write your book’s content in Jupyter Notebooks (<code class="docutils literal notranslate"><span class="pre">.ipynb</span></code>) or
-in regular markdown files (<code class="docutils literal notranslate"><span class="pre">.md</span></code>), you’ll write in the same flavor of markdown
-called <strong>MyST Markdown</strong>.</p>
-<div class="section" id="what-is-myst">
-<h2>What is MyST?<a class="headerlink" href="#what-is-myst" title="Permalink to this headline">¶</a></h2>
-<p>MyST stands for “Markedly Structured Text”. It
-is a slight variation on a flavor of markdown called “CommonMark” markdown,
-with small syntax extensions to allow you to write <strong>roles</strong> and <strong>directives</strong>
-in the Sphinx ecosystem.</p>
+  <div class="section" id="uso">
+<h1>Uso<a class="headerlink" href="#uso" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="libros-de-texto-estaticos">
+<h2>1. Libros de texto estáticos<a class="headerlink" href="#libros-de-texto-estaticos" title="Permalink to this headline">¶</a></h2>
+<p>Como primer punto de partida para la transición a la creación de Jupyter Notebooks se pueden usar como documentos narrativos estáticos para generar materiales de lectura previos a la clase. El siguiente paso sería la extensión de estos materiales haciendo uso de las celdas de código para crear oportunidades de aprendizaje activo.</p>
 </div>
-<div class="section" id="what-are-roles-and-directives">
-<h2>What are roles and directives?<a class="headerlink" href="#what-are-roles-and-directives" title="Permalink to this headline">¶</a></h2>
-<p>Roles and directives are two of the most powerful tools in Jupyter Book. They
-are kind of like functions, but written in a markup language. They both
-serve a similar purpose, but <strong>roles are written in one line</strong>, whereas
-<strong>directives span many lines</strong>. They both accept different kinds of inputs,
-and what they do with those inputs depends on the specific role or directive
-that is being called.</p>
-<div class="section" id="using-a-directive">
-<h3>Using a directive<a class="headerlink" href="#using-a-directive" title="Permalink to this headline">¶</a></h3>
-<p>At its simplest, you can insert a directive into your book’s content like so:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>```{mydirectivename}
-My directive content
-```
-</pre></div>
+<div class="section" id="libros-de-trabajo">
+<h2>2. Libros de trabajo<a class="headerlink" href="#libros-de-trabajo" title="Permalink to this headline">¶</a></h2>
+<p>Los Notebooks pueden ser utilizados como mecanismos de trabajo, moviendo al estudiante al aprendizaje activo. Adicionalmente, permite organizar grandes flujos de trabajo en documentación conectada y organizada, evitando largos scripts con códigos desconectados.</p>
 </div>
-<p>This will only work if a directive with name <code class="docutils literal notranslate"><span class="pre">mydirectivename</span></code> already exists
-(which it doesn’t). There are many pre-defined directives associated with
-Jupyter Book. For example, to insert a note box into your content, you can
-use the following directive:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>```{note}
-Here is a note
-```
-</pre></div>
+<div class="section" id="hojas-de-trabajo-o-set-de-ejercicios">
+<h2>3. Hojas de trabajo o set de ejercicios<a class="headerlink" href="#hojas-de-trabajo-o-set-de-ejercicios" title="Permalink to this headline">¶</a></h2>
+<p>La estructura de los Notebooks permite la construcción de set de problemas de una manera visualmente digerible para el estudiante y que incluso soporta el uso de herramientas de auto calificación que podrían generar un feedback inmediato.</p>
 </div>
-<p>This results in:</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Here is a note</p>
+<div class="section" id="paquete-de-cursos-u-hojas-de-notas">
+<h2>4. Paquete de cursos u hojas de notas<a class="headerlink" href="#paquete-de-cursos-u-hojas-de-notas" title="Permalink to this headline">¶</a></h2>
+<p>Promover el uso de Notebooks en forma de libros de notas en la clase ayuda al estudiante a fomentar el aprendizaje activo.</p>
 </div>
-<p>In your built book.</p>
-<p>For more information on writing directives, see the
-<a class="reference external" href="https://myst-parser.readthedocs.io/">MyST documentation</a>.</p>
+<div class="section" id="aplicaciones-y-plataformas-multimedia-interactivas">
+<h2>5. Aplicaciones y plataformas multimedia interactivas<a class="headerlink" href="#aplicaciones-y-plataformas-multimedia-interactivas" title="Permalink to this headline">¶</a></h2>
+<p>Los Notebooks permiten entregar al usuario contenido interactivo generando la oportunidad de fomentar la lectura activa y participación en el tema tratado. Además, la flexibilidad entregada permite incluir gran variedad de recursos en distintos formatos.</p>
 </div>
-<div class="section" id="using-a-role">
-<h3>Using a role<a class="headerlink" href="#using-a-role" title="Permalink to this headline">¶</a></h3>
-<p>Roles are very similar to directives, but they are less-complex and written
-entirely on one line. You can insert a role into your book’s content with
-this pattern:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Some content {rolename}`and here is my role&#39;s content!`
-</pre></div>
+<div class="section" id="reportes-de-laboratorio-y-tareas">
+<h2>6. Reportes de laboratorio y tareas<a class="headerlink" href="#reportes-de-laboratorio-y-tareas" title="Permalink to this headline">¶</a></h2>
+<p>Sin importar el tipo de contenido, se puede hacer uso de los Notebooks para generar entregas con diversos formatos. Esta herramienta se convierte en un recurso particularmente valioso en MOOCs por la escalabilidad que la caracteriza al poder estar asociada con el desarrollo de tareas con entrega de auto feedback, sobre todo en temas de programación.</p>
 </div>
-<p>Again, roles will only work if <code class="docutils literal notranslate"><span class="pre">rolename</span></code> is a valid role’s name. For example,
-the <code class="docutils literal notranslate"><span class="pre">doc</span></code> role can be used to refer to another page in your book. You can
-refer directly to another page by its relative path. For example, the
-role syntax <code class="docutils literal notranslate"><span class="pre">{doc}`intro`</span></code> will result in: <a class="reference internal" href="intro.html"><span class="doc">Welcome to your Jupyter Book</span></a>.</p>
-<p>For more information on writing roles, see the
-<a class="reference external" href="https://myst-parser.readthedocs.io/">MyST documentation</a>.</p>
+<div class="section" id="plataforma-demostrativa">
+<h2>7. Plataforma demostrativa<a class="headerlink" href="#plataforma-demostrativa" title="Permalink to this headline">¶</a></h2>
+<p>Los notebooks pueden utilizarse tanto como para presentar un tema desde el uso del formato básico a modo de combinación de texto y celdas de código o también hacer uso de plugins disponibles para convertirlos en presentaciones.</p>
 </div>
-<div class="section" id="adding-a-citation">
-<h3>Adding a citation<a class="headerlink" href="#adding-a-citation" title="Permalink to this headline">¶</a></h3>
-<p>You can also cite references that are stored in a <code class="docutils literal notranslate"><span class="pre">bibtex</span></code> file. For example,
-the following syntax: <code class="docutils literal notranslate"><span class="pre">{cite}`holdgraf_evidence_2014`</span></code> will render like
-this: <a class="bibtex reference internal" href="#holdgraf-evidence-2014" id="id1">[HdHPK14]</a>.</p>
-<p>Moreoever, you can insert a bibliography into your page with this syntax:
-The <code class="docutils literal notranslate"><span class="pre">{bibliography}</span></code> directive must be used for all the <code class="docutils literal notranslate"><span class="pre">{cite}</span></code> roles to
-render properly.
-For example, if the references for your book are stored in <code class="docutils literal notranslate"><span class="pre">references.bib</span></code>,
-then the bibliography is inserted with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>```{bibliography} references.bib
-```
-</pre></div>
-</div>
-<p>Resulting in a rendered bibliography that looks like:</p>
-<p id="bibtex-bibliography-markdown-0"><dl class="citation">
-<dt class="bibtex label" id="holdgraf-evidence-2014"><span class="brackets"><a class="fn-backref" href="#id1">HdHPK14</a></span></dt>
-<dd><p>Christopher Ramsay Holdgraf, Wendy de Heer, Brian N. Pasley, and Robert T. Knight. Evidence for Predictive Coding in Human Auditory Cortex. In <em>International Conference on Cognitive Neuroscience</em>. Brisbane, Australia, Australia, 2014. Frontiers in Neuroscience.</p>
-</dd>
-</dl>
-</p>
-</div>
-<div class="section" id="executing-code-in-your-markdown-files">
-<h3>Executing code in your markdown files<a class="headerlink" href="#executing-code-in-your-markdown-files" title="Permalink to this headline">¶</a></h3>
-<p>If you’d like to include computational content inside these markdown files,
-you can use MyST Markdown to define cells that will be executed when your
-book is built. Jupyter Book uses <em>jupytext</em> to do this.</p>
-<p>First, add Jupytext metadata to the file. For example, to add Jupytext metadata
-to this markdown page, run this command:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">jupyter</span><span class="o">-</span><span class="n">book</span> <span class="n">myst</span> <span class="n">init</span> <span class="n">markdown</span><span class="o">.</span><span class="n">md</span>
-</pre></div>
-</div>
-<p>Once a markdown file has Jupytext metadata in it, you can add the following
-directive to run the code at build time:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>```{code-cell}
-print(&quot;Here is some code to execute&quot;)
-```
-</pre></div>
-</div>
-<p>When your book is built, the contents of any <code class="docutils literal notranslate"><span class="pre">{code-cell}</span></code> blocks will be
-executed with your default Jupyter kernel, and their outputs will be displayed
-in-line with the rest of your content.</p>
-<p>For more information about executing computational content with Jupyter Book,
-see <a class="reference external" href="https://myst-nb.readthedocs.io/">The MyST-NB documentation</a>.</p>
-</div>
+<div class="section" id="programacion-en-vivo">
+<h2>8. Programación en vivo<a class="headerlink" href="#programacion-en-vivo" title="Permalink to this headline">¶</a></h2>
+<p>Crear Notebooks de código en clase permite al alumno vivir el proceso de codificación. Adicionalmente, permite que el docente haga incapié en posibles bugs o errores que se pueden generar y mostrar la manera de arreglarlos.</p>
 </div>
 </div>
 
@@ -380,15 +328,15 @@ see <a class="reference external" href="https://myst-nb.readthedocs.io/">The MyS
     
     <div class='prev-next-bottom'>
         
-    <a class='left-prev' id="prev-link" href="content.html" title="previous page">Content in Jupyter Book</a>
-    <a class='right-next' id="next-link" href="notebooks.html" title="next page">Content with notebooks</a>
+    <a class='left-prev' id="prev-link" href="content.html" title="previous page">Funcionalidades</a>
+    <a class='right-next' id="next-link" href="notebooks.html" title="next page">Wiki de ejemplos</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">
     <div class="container">
       <p>
         
-          By The Jupyter Book Community<br/>
+          By Uc3m Jupyter<br/>
         
             &copy; Copyright 2020.<br/>
       </p>

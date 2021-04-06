@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Content with notebooks &#8212; My sample book</title>
+    <title>Wiki de ejemplos &#8212; Jupyter Notebooks</title>
     
   <link rel="stylesheet" href="_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
 
@@ -45,8 +45,6 @@
     <script src="_static/copybutton.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
-    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe"
@@ -56,7 +54,8 @@
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="Markdown Files" href="markdown.html" />
+    <link rel="next" title="Add-on Nbgrader" href="notebooks2.html" />
+    <link rel="prev" title="Uso" href="markdown.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
@@ -78,7 +77,7 @@
   <img src="_static/logo.png" class="logo" alt="logo">
   
   
-  <h1 class="site-logo" id="site-title">My sample book</h1>
+  <h1 class="site-logo" id="site-title">Jupyter Notebooks</h1>
   
 </a>
 </div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
@@ -89,29 +88,44 @@
     <ul class="nav sidenav_l1">
  <li class="toctree-l1">
   <a class="reference internal" href="intro.html">
-   Welcome to your Jupyter Book
+   Jupyter Notebooks for teaching
   </a>
  </li>
 </ul>
 <ul class="current nav sidenav_l1">
  <li class="toctree-l1 current active collapsible-parent">
   <a class="reference internal" href="content.html">
-   Content in Jupyter Book
+   Funcionalidades
   </a>
   <ul class="current collapse-ul">
    <li class="toctree-l2">
     <a class="reference internal" href="markdown.html">
-     Markdown Files
+     Uso
     </a>
    </li>
    <li class="toctree-l2 current active">
     <a class="current reference internal" href="#">
-     Content with notebooks
+     Wiki de ejemplos
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="notebooks2.html">
+     Add-on Nbgrader
     </a>
    </li>
   </ul>
   <i class="fas fa-chevron-down">
   </i>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="markdown2.html">
+   ¿Dónde empezar?
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="markdown3.html">
+   Alternativas a Jupyter Notebooks
+  </a>
  </li>
 </ul>
 
@@ -169,11 +183,11 @@
         aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
     <div class="dropdown-buttons sourcebuttons">
         <a class="repository-button"
-            href="https://github.com/executablebooks/jupyter-book"><button type="button" class="btn btn-secondary topbarbtn"
+            href="https://github.com/Rafaelab1227/demobook1/"><button type="button" class="btn btn-secondary topbarbtn"
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fnotebooks.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/Rafaelab1227/demobook1//issues/new?title=Issue%20on%20page%20%2Fnotebooks.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
         
@@ -194,7 +208,7 @@
         aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
     <div class="dropdown-buttons">
         
-        <a class="binder-button" href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/docs/notebooks.ipynb"><button type="button"
+        <a class="binder-button" href="https://mybinder.org/v2/gh/Rafaelab1227/demobook1/master?urlpath=tree/docs/notebooks.ipynb"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
                 data-placement="left"><img class="binder-button-logo"
                     src="_static/images/logo_binder.svg"
@@ -211,30 +225,6 @@
     <!-- Table of contents -->
     <div class="d-none d-md-block col-md-2 bd-toc show">
         
-        <div class="tocsection onthispage pt-5 pb-3">
-            <i class="fas fa-list"></i> Contents
-        </div>
-        <nav id="bd-toc-nav">
-            <ul class="nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#markdown-notebooks">
-   Markdown + notebooks
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#myst-markdown">
-   MyST markdown
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#code-blocks-and-outputs">
-   Code blocks and outputs
-  </a>
- </li>
-</ul>
-
-        </nav>
-        
     </div>
 </div>
     <div id="main-content" class="row">
@@ -242,85 +232,122 @@
         
               <div>
                 
-  <div class="section" id="content-with-notebooks">
-<h1>Content with notebooks<a class="headerlink" href="#content-with-notebooks" title="Permalink to this headline">¶</a></h1>
-<p>You can also create content with Jupyter Notebooks. This means that you can include
-code blocks and their outputs in your book.</p>
-<div class="section" id="markdown-notebooks">
-<h2>Markdown + notebooks<a class="headerlink" href="#markdown-notebooks" title="Permalink to this headline">¶</a></h2>
-<p>As it is markdown, you can embed images, HTML, etc into your posts!</p>
-<p><img alt="" src="https://myst-parser.readthedocs.io/en/latest/_static/logo.png" /></p>
-<p>You an also <span class="math notranslate nohighlight">\(add_{math}\)</span> and</p>
-<div class="math notranslate nohighlight">
-\[
-math^{blocks}
-\]</div>
-<p>or</p>
-<div class="math notranslate nohighlight">
-\[\begin{split}
-\begin{aligned}
-\mbox{mean} la_{tex} \\ \\
-math blocks
-\end{aligned}
-\end{split}\]</div>
-<p>But make sure you $Escape $your $dollar signs $you want to keep!</p>
-</div>
-<div class="section" id="myst-markdown">
-<h2>MyST markdown<a class="headerlink" href="#myst-markdown" title="Permalink to this headline">¶</a></h2>
-<p>MyST markdown works in Jupyter Notebooks as well. For more information about MyST markdown, check
-out <a class="reference external" href="https://jupyterbook.org/content/myst.html">the MyST guide in Jupyter Book</a>,
-or see <a class="reference external" href="https://myst-parser.readthedocs.io/en/latest/">the MyST markdown documentation</a>.</p>
-</div>
-<div class="section" id="code-blocks-and-outputs">
-<h2>Code blocks and outputs<a class="headerlink" href="#code-blocks-and-outputs" title="Permalink to this headline">¶</a></h2>
-<p>Jupyter Book will also embed your code blocks and output in your book.
-For example, here’s some sample Matplotlib code:</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">rcParams</span><span class="p">,</span> <span class="n">cycler</span>
-<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
-<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">ion</span><span class="p">()</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Matplotlib is building the font cache; this may take a moment.
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Fixing random state for reproducibility</span>
-<span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="mi">19680801</span><span class="p">)</span>
-
-<span class="n">N</span> <span class="o">=</span> <span class="mi">10</span>
-<span class="n">data</span> <span class="o">=</span> <span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">logspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span> <span class="o">+</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randn</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span> <span class="o">+</span> <span class="n">ii</span> <span class="k">for</span> <span class="n">ii</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">N</span><span class="p">)]</span>
-<span class="n">data</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">data</span><span class="p">)</span><span class="o">.</span><span class="n">T</span>
-<span class="n">cmap</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">cm</span><span class="o">.</span><span class="n">coolwarm</span>
-<span class="n">rcParams</span><span class="p">[</span><span class="s1">&#39;axes.prop_cycle&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">cycler</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="n">cmap</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="n">N</span><span class="p">)))</span>
-
-
-<span class="kn">from</span> <span class="nn">matplotlib.lines</span> <span class="kn">import</span> <span class="n">Line2D</span>
-<span class="n">custom_lines</span> <span class="o">=</span> <span class="p">[</span><span class="n">Line2D</span><span class="p">([</span><span class="mi">0</span><span class="p">],</span> <span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">color</span><span class="o">=</span><span class="n">cmap</span><span class="p">(</span><span class="mf">0.</span><span class="p">),</span> <span class="n">lw</span><span class="o">=</span><span class="mi">4</span><span class="p">),</span>
-                <span class="n">Line2D</span><span class="p">([</span><span class="mi">0</span><span class="p">],</span> <span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">color</span><span class="o">=</span><span class="n">cmap</span><span class="p">(</span><span class="o">.</span><span class="mi">5</span><span class="p">),</span> <span class="n">lw</span><span class="o">=</span><span class="mi">4</span><span class="p">),</span>
-                <span class="n">Line2D</span><span class="p">([</span><span class="mi">0</span><span class="p">],</span> <span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">color</span><span class="o">=</span><span class="n">cmap</span><span class="p">(</span><span class="mf">1.</span><span class="p">),</span> <span class="n">lw</span><span class="o">=</span><span class="mi">4</span><span class="p">)]</span>
-
-<span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
-<span class="n">lines</span> <span class="o">=</span> <span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
-<span class="n">ax</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">custom_lines</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;Cold&#39;</span><span class="p">,</span> <span class="s1">&#39;Medium&#39;</span><span class="p">,</span> <span class="s1">&#39;Hot&#39;</span><span class="p">]);</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<img alt="_images/notebooks_2_0.png" src="_images/notebooks_2_0.png" />
-</div>
-</div>
-<p>There is a lot more that you can do with outputs (such as including interactive outputs)
-with your book. For more information about this, see <a class="reference external" href="https://jupyterbook.org">the Jupyter Book documentation</a></p>
-</div>
-</div>
+  <div class="section" id="wiki-de-ejemplos">
+<h1>Wiki de ejemplos<a class="headerlink" href="#wiki-de-ejemplos" title="Permalink to this headline">¶</a></h1>
+<p>En esta sección se puede encontrar una galeria de Jupyter Notebooks como ejemplo de su uso basándonos en patrones pedagógicos.</p>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-lboi{border-color:inherit;text-align:left;vertical-align:middle}
+.tg .tg-c094{background-color:#3D8EB9;border-color:inherit;text-align:center;vertical-align:middle}
+.tg .tg-9wq8{border-color:inherit;text-align:center;vertical-align:middle}
+.tg .tg-b9ha{border-color:inherit;color:#000000;text-align:left;vertical-align:middle}
+.tg .tg-rcip{background-color:#FFF;border-color:inherit;text-align:center;vertical-align:middle}
+@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;}}</style>
+<div class="tg-wrap"><table class="tg" style="undefined;table-layout: fixed; width: 1167px">
+<colgroup>
+<col style="width: 254px">
+<col style="width: 448px">
+<col style="width: 465px">
+</colgroup>
+<thead>
+  <tr>
+    <th class="tg-c094"><span style="background-color:#3D8EB9">Patrón pedagógico</span></th>
+    <th class="tg-c094"><span style="background-color:#3D8EB9">Descripción</span></th>
+    <th class="tg-c094"><span style="background-color:#3D8EB9">Ejemplo</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-9wq8">Shift-Enter</td>
+    <td class="tg-9wq8">Los alumnos leen y ejecutan código, así como también interactúan con widgets para explorar conceptos.</td>
+    <td class="tg-lboi"><a href="https://nbviewer.jupyter.org/github/lmarti/evolutionary-computation-course/blob/master/AEC.06%20-%20Evolutionary%20Multi-Objective%20Optimization.ipynb" target="_blank" rel="noopener noreferrer">Advanced Evolutionary Computation: Theory and Practice course por Luis Martí. Understanding evolutionary strategies and covariance matrix adaptation. Evolutionary Multi-Objective Optimization</a></td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">Completar espacios</td>
+    <td class="tg-9wq8">Los alumnos deberán completar partes de código faltantes para generar resultados que corroborarán su respuesta.</td>
+    <td class="tg-lboi"><a href="https://nbviewer.jupyter.org/github/mbakker7/exploratory_computing_with_python/blob/master/notebook1_basics_plotting/py_exploratory_comp_1_sol.ipynb" target="_blank" rel="noopener noreferrer">Exploratory computing with Python por Mark Bakker de Delft University of Technology. Notebook 1: Basics and Plotting</a></td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">Práctica objetivo</td>
+    <td class="tg-9wq8">Se proporciona todos los pasos del flujo de trabajo, excepto el que es el foco del ejercicio, el cual deberá ser resuelto por el estudiante.</td>
+    <td class="tg-lboi"><a href="https://nbviewer.jupyter.org/github/mbakker7/exploratory_computing_with_python/blob/master/notebook4_functions/py_exploratory_comp_4_sol.ipynb" target="_blank" rel="noopener noreferrer">Exploratory computing with Python por Mark Bakker de Delft University of Technology. Notebook 4: Functions</a></td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">Tweak, twiddle, and frob</td>
+    <td class="tg-9wq8">Los alumnos reciben un cuaderno con un ejemplo, deberán leer el texto, ejecutar el código y analizar los resultados. Posteriormente, deberán realizar cambios pequeños, ligeros, o substanciales y correr nuevamente el código para comparar resultados.</td>
+    <td class="tg-b9ha"><a href="https://nbviewer.jupyter.org/github/lmarti/evolutionary-computation-course/blob/master/AEC.04%20-%20Evolutionary%20Strategies%20and%20Covariance%20Matrix%20Adaptation.ipynb" target="_blank" rel="noopener noreferrer">Advanced Evolutionary Computation: Theory and Practice course por Luis Martí. Understanding evolutionary strategies and covariance matrix adaptation</a></td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">Notebooks como aplicaciones</td>
+    <td class="tg-9wq8">Se crean cuadernos con interfaces haciendo uso de herramientas como controles deslizantes, cuadros de entrada y botones de alternancia para generar interacción.</td>
+    <td class="tg-lboi">1. <a href="https://mybinder.org/v2/gh/ipython-books/cookbook-2nd-code/master" target="_blank" rel="noopener noreferrer">Code of the IPython Cookbook, Second Edition (2018), Chapter 3</a><br>2.<a href="https://nbviewer.jupyter.org/gist/fonnesbeck/8495259" target="_blank" rel="noopener noreferrer">Using Plotly for Interactive and Collaborative Data Visualization</a>¶<br>3. <a href="https://nbviewer.jupyter.org/github/maojrs/ipynotebooks/blob/master/acoustics_riemann.ipynb" target="_blank" rel="noopener noreferrer">Acoustics equations and their Riemann solver in 1D and 2D by Mauricio J. Del Razo S. 20141</a></td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">Win-day-one</td>
+    <td class="tg-9wq8">Se muestra la respuesta rápida y concisa del problema a través de un cuaderno que se denomina "win", posteriormente, se despliegan los demás cuadernos mostrando todas las fases de resolución.</td>
+    <td class="tg-lboi"><a href="https://nbviewer.jupyter.org/github/jdwittenauer/ipython-notebooks/blob/master/notebooks/fastai/Fastai-Lesson1.ipynb" target="_blank" rel="noopener noreferrer">Lesson 1 - Image Classification by Notebooks from Jeremy Howard's fast.ai class.</a></td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">Top-down sequence</td>
+    <td class="tg-9wq8">Se presenta primero la utilidad de la herramienta para luego mostrar cómo funciona, lo que hace que sea más atractivo y motivante para el estudiante.</td>
+    <td class="tg-lboi"><a href="https://github.com/dmnguyen92/The-collapse-of-bubble-near-a-wall/blob/master/Bubble%20collapse%20near%20a%20wall.ipynb" target="_blank" rel="noopener noreferrer">The-collapse-of-bubble-near-a-wall</a></td>
+  </tr>
+  <tr>
+    <td class="tg-rcip"><span style="color:#000;background-color:#FFF">Codificación como traducción</span></td>
+    <td class="tg-9wq8">Se toma explícitamente ecuaciones matemáticas y se las traduce en código.</td>
+    <td class="tg-lboi">1. <a href="https://nbviewer.jupyter.org/github/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/blob/master/Chapter1_Introduction/Ch1_Introduction_PyMC3.ipynb" target="_blank" rel="noopener noreferrer">Probabilistic-Programming-and-Bayesian-Methods-for-Hackers</a><br>2. <a href="https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/01.01-Units-and-Engineering-Calculations.ipynb" target="_blank" rel="noopener noreferrer">CBE20255 Introduction to Chemical Engineering Analysis</a></td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">Remplazar análisis con métodos numéricos</td>
+    <td class="tg-9wq8">Promover el uso de simulaciones y métodos numéricos en lugar de solo realizar análisis.</td>
+    <td class="tg-lboi"><a href="https://krischer.github.io/seismo_live_build/html/Earthquake%20Physics/rupturedynamics_2D/rupture_2D_wrapper.html" target="_blank" rel="noopener noreferrer">Seismo-Live Live Jupyter Notebooks for Seismology</a></td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">Prueba por ejemplo, refutación por contraejemplo</td>
+    <td class="tg-9wq8">Mediante ejemplos los alumnos pueden experimentar resultados generales derivados o probados y ver cómo funcionan y cuándo fallan.</td>
+    <td class="tg-lboi"><a href="https://nbviewer.jupyter.org/github/nealcaren/workshop_2014/blob/master/notebooks/3_Sentiment.ipynb" target="_blank" rel="noopener noreferrer">Workshop on text analysis by Neal Caren. Sentiment Analysis</a></td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">El mundo es tu base de datos</td>
+    <td class="tg-9wq8">Presentar notebooks conectados a data de fuentes externas permite al alumno trabajar directamente con un mayor número de recursos.</td>
+    <td class="tg-lboi"><a href="https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/03.09-Pivot-Tables.ipynb#scrollTo=cMR6decmYqtu" target="_blank" rel="noopener noreferrer">Python Data Science Handbook por Jake VanderPlas</a></td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">Tu turno</td>
+    <td class="tg-9wq8">El estudiante crea un cuaderno nuevo en base a uno dado por el instructor como una variación o un ejemplo similar al dado.</td>
+    <td class="tg-lboi"><a href="https://nbviewer.jupyter.org/github/lmarti/evolutionary-computation-course/blob/master/AEC.04%20-%20Evolutionary%20Strategies%20and%20Covariance%20Matrix%20Adaptation.ipynb" target="_blank" rel="noopener noreferrer">Understanding evolutionary strategies and covariance matrix adaptation¶Luis Martí, IC/UFF</a></td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">Crear contenido para la comunidad</td>
+    <td class="tg-9wq8">Fomentar en el estudiante el uso de data externa y compartir su trabajo en plataformas para que otros puedan reusarlas y revisarlas.</td>
+    <td class="tg-lboi"><a href="http://readiab.org/" target="_blank" rel="noopener noreferrer">An Introduction to Applied Bioinformatics</a></td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">Competiciones</td>
+    <td class="tg-9wq8">Crear competiciones y fomentar la participación de los estudiantes en competiciones con el uso del ecosistema reproducible de Jupyter para que refuercen ss conocimientos.</td>
+    <td class="tg-lboi"><a href="https://www.kaggle.com/c/reservas-de-hotel/overview" target="_blank" rel="noopener noreferrer">Kaggle Reservas Hoteles</a><br><a href="https://nbviewer.jupyter.org/github/agconti/kaggle-titanic/blob/master/Titanic.ipynb" target="_blank" rel="noopener noreferrer">Titanic</a></td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">Tests y revisión automática de códigos</td>
+    <td class="tg-9wq8">Herramientas adicionales permiten crear directamente tests con autocalificación y feedback inmediato para el alumno.</td>
+    <td class="tg-lboi"><a href="https://nbgrader.readthedocs.io/en/stable/index.html" target="_blank" rel="noopener noreferrer">Nbgrader documentation</a><br><a href="https://datamine.purdue.edu/seminars/spring2020/stat19000project01.html%20Se%20ha%20habilitado%20la%20compatibilidad%20con%20lectores%20de%20pantalla." target="_blank" rel="noopener noreferrer">STAT 19000 Project 1 using Github classroom</a></td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">Identificación de errores</td>
+    <td class="tg-9wq8">El instructor crea notebooks con errores que deberán ser identificados por el alumno para poder correr correctamente los códigos.</td>
+    <td class="tg-lboi"><a href="https://nbviewer.jupyter.org/github/mbakker7/exploratory_computing_with_python/blob/master/notebook7_bugs/py_exploratory_comp_7_sol.ipynb" target="_blank" rel="noopener noreferrer">Exploratory computing with Python por Mark Bakker de Delft University of Technology</a></td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">Programación contradictoria</td>
+    <td class="tg-9wq8">Se crean notebooks separados de la función para resolver un problema y otros con pruebas para testear la función. Así se fomenta el pensamiento crítico en el alumno para ver todas las posibles fallas que pueden romper la solución planteada.</td>
+    <td class="tg-lboi"><a href="https://geo-python.github.io/site/develop/notebooks/L4/functions.html" target="_blank" rel="noopener noreferrer">Creating functions and test them</a></td>
+  </tr>
+</tbody>
+</table></div></div>
 
     <script type="text/x-thebe-config">
     {
@@ -350,14 +377,15 @@ with your book. For more information about this, see <a class="reference externa
     
     <div class='prev-next-bottom'>
         
-    <a class='left-prev' id="prev-link" href="markdown.html" title="previous page">Markdown Files</a>
+    <a class='left-prev' id="prev-link" href="markdown.html" title="previous page">Uso</a>
+    <a class='right-next' id="next-link" href="notebooks2.html" title="next page">Add-on Nbgrader</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">
     <div class="container">
       <p>
         
-          By The Jupyter Book Community<br/>
+          By Uc3m Jupyter<br/>
         
             &copy; Copyright 2020.<br/>
       </p>
