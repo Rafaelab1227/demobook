@@ -7,7 +7,7 @@
 
 **Apache Zeppelin**: actualmente compite con Jupyter Notebooks al poseer algunas ventajas. Por ejemplo, permite la edición mediante múltiples usuarios al mismo tiempo y mayores herramientas de visualización, sin embargo, tiene un enfoque marcado de uso para análisis de datos.
 
-<img src="https://zeppelin.apache.org/assets/themes/zeppelin/img/zeppelin_logo.png" alt="drawing" width="200"/>
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnextunicorn.ventures%2Fwp-content%2Fuploads%2F2016%2F12%2FApache-Zeppelin-e1481626161955.png&f=1&nofb=1" alt="drawing" width="200"/>
 
 **RStudio**: posiblemente, el más cercano a Jupyter Notebook si se compara funcionalidad. Posee una consola editable, permite el trabajo directo en la nube y contiene herramientas como RMarkdown que permiten creae presentaciones y documentos fácilmente.
 
