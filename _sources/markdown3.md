@@ -7,8 +7,13 @@
 
 **Apache Zeppelin**: actualmente compite con Jupyter Notebooks al poseer algunas ventajas. Por ejemplo, permite la edición mediante múltiples usuarios al mismo tiempo y mayores herramientas de visualización, sin embargo, tiene un enfoque marcado de uso para análisis de datos.
 
+<img src="https://zeppelin.apache.org/assets/themes/zeppelin/img/zeppelin_logo.png" alt="drawing" width="200"/>
+
 **RStudio**: posiblemente, el más cercano a Jupyter Notebook si se compara funcionalidad. Posee una consola editable, permite el trabajo directo en la nube y contiene herramientas como RMarkdown que permiten creae presentaciones y documentos fácilmente.
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.mango-solutions.com%2Fwp-content%2Fuploads%2F2020%2F03%2FRStudio-logo-for-web.png&f=1&nofb=1" alt="drawing" width="200"/>
 
 **Rodeo IDE**: únicamente soporta Python, sin embargo, posee funciones de autocompletación que ayudan en la tarea de programación.
 
-**Spark Notebook**: utiliza Scala como lenguaje primario, también soporta SQL y JavaScript. Su comunidad de uso es relayivamente pequeña por lo que no es fácil encontrar ejemplos y soporte.
+<img src="https://external-preview.redd.it/HvjeIdyRwwRBhaw7r0bvLIasPoSVuDng9fQbWaB00ZQ.jpg?auto=webp&s=62795778c7f5c9f5571c082123d70a4cd84b6fce" alt="drawing" width="200"/>
+
